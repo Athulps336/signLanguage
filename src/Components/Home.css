@@ -1,0 +1,150 @@
+.outer-div{
+    background-image: url('https://i.postimg.cc/8cf4jjwv/background-Image11.png');
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: fixed;
+}
+.outer-div h1{
+    font-size: 100px;
+   letter-spacing: 5px;
+}
+
+.outer-div h6{
+    font-size: 20px;
+   letter-spacing: 5px;
+
+}
+.button-readmore{
+    background-color: rgb(126, 202, 12);
+    width: 150px;
+    height: 50px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button-readmore:hover{
+    background-color: rgb(149, 214, 51);
+
+}
+.button-readmore a{
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    font-stretch: expanded;
+}
+/* .about-content{
+    width: 90%;
+} */
+/* about image */
+.about-img{
+    display: flex;
+    justify-content: center;
+}
+/* about text */
+.about-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* icon-image */
+.icon-img{
+   width: 80%;
+
+}
+.image-icon-round{
+    width: 80px;
+    height: 80px;
+
+    background: white;
+    border-radius: 50%;
+}
+
+.funlearning{
+    background-color: #4894b6;
+
+}
+.guaranteed-work{
+    background-color: #65ca5a;
+
+}
+.resources{
+    background-color: #f4131d;
+}
+.library{
+    background-color: #f1c50e;
+}
+
+/* learn more button */
+.button-learnMore{
+    background-color: #f4131d;
+    width: 150px;
+    height: 50px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button-learnMore:hover{
+    background-color: #c03b42;
+
+}
+.button-learnMore a{
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    font-stretch: expanded;
+
+}
+
+@media  (max-width: 1200px){
+    .outer-div{
+        background-size: contain;
+        height: 30vh;
+
+    }
+}
+@media  (max-width: 820px){
+
+    .outer-div{
+        background-size: contain;
+        height: 30vh;
+
+    }
+
+    .outer-div h1{
+        font-size: 50px;
+       letter-spacing: 5px;
+    }
+    .outer-div h6{
+        font-size: 15px;
+       letter-spacing: 5px;
+    
+    }
+
+}
+
+@media  (max-width: 480px){
+
+    .outer-div{
+        background-size: contain;
+        height: 30vh;
+
+    }
+
+    .outer-div h1{
+        font-size: 50px;
+       letter-spacing: 5px;
+    }
+    .outer-div h6{
+        font-size: 15px;
+       letter-spacing: 5px;
+    
+    }
+
+}
